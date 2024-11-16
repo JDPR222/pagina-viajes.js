@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(20, 21, 24, 0.808), rgba(6, 12, 27, 0.5)), url(./imagenes/viaje3.jpg);
+    background-size: cover; 
+    height: 100vh;
+
+
+}
+h1{
+    text-align:center;
+    color: white;
+    font-size: 80px;
+}
+h2{
+    color: rgba(22, 199, 102, 0.767);
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    color: azure;
+    align-self: normal;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 17%;
+    background-color: #ffffff81;
+    position: fixed;
+    height: 95vh;
+    overflow: auto;
+   
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 25px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 25px;
+     border-bottom: 1px solid gray;
+}
+
+li a.active {
+    background-color: #13b15aa2;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: hsla(231, 43%, 52%, 0.712);
+    color: rgb(0, 0, 0);
+}
+
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    margin-left: 18%;
+    padding: 25px;
+    height: 100vh;
+    
+}
